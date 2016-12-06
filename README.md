@@ -3,7 +3,8 @@
 ###中奖名单文字滚动
 
 ###使用方法:
-[]()
+####效果图:
+[](https://github.com/marlonxlj/ScrollLable/blob/master/1.gif)
 ```
 /**
  *  初始化
