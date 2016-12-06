@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174886D11DF1641900E54337 /* NewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 174886CF1DF1641900E54337 /* NewTableViewCell.m */; };
+		17AFBDD21DF69C44009DF83B /* XLJScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AFBDD11DF69C44009DF83B /* XLJScrollLabel.m */; };
+		17CFC79B1DF01E2300E3F8CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFC79A1DF01E2300E3F8CB /* main.m */; };
+		17CFC79E1DF01E2300E3F8CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFC79D1DF01E2300E3F8CB /* AppDelegate.m */; };
+		17CFC7A11DF01E2300E3F8CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFC7A01DF01E2300E3F8CB /* ViewController.m */; };
+		17CFC7A41DF01E2300E3F8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CFC7A21DF01E2300E3F8CB /* Main.storyboard */; };
+		17CFC7A61DF01E2300E3F8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CFC7A51DF01E2300E3F8CB /* Assets.xcassets */; };
+		17CFC7A91DF01E2300E3F8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CFC7A71DF01E2300E3F8CB /* LaunchScreen.storyboard */; };
+		17CFC7B41DF01E2300E3F8CB /* NSTierDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFC7B31DF01E2300E3F8CB /* NSTierDemoTests.m */; };
+		17CFC7BF1DF01E2300E3F8CB /* NSTierDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFC7BE1DF01E2300E3F8CB /* NSTierDemoUITests.m */; };
+		17CFC7CE1DF0202100E3F8CB /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFC7CD1DF0202100E3F8CB /* AutoScrollLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17CFC7B01DF01E2300E3F8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17CFC78E1DF01E2300E3F8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17CFC7951DF01E2300E3F8CB;
+			remoteInfo = NSTierDemo;
+		};
+		17CFC7BB1DF01E2300E3F8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17CFC78E1DF01E2300E3F8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17CFC7951DF01E2300E3F8CB;
+			remoteInfo = NSTierDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		174886CE1DF1641900E54337 /* NewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTableViewCell.h; sourceTree = "<group>"; };
+		174886CF1DF1641900E54337 /* NewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTableViewCell.m; sourceTree = "<group>"; };
+		17AFBDD01DF69C44009DF83B /* XLJScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJScrollLabel.h; sourceTree = "<group>"; };
+		17AFBDD11DF69C44009DF83B /* XLJScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJScrollLabel.m; sourceTree = "<group>"; };
+		17CFC7961DF01E2300E3F8CB /* NSTierDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTierDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CFC79A1DF01E2300E3F8CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17CFC79C1DF01E2300E3F8CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17CFC79D1DF01E2300E3F8CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17CFC79F1DF01E2300E3F8CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17CFC7A01DF01E2300E3F8CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17CFC7A31DF01E2300E3F8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17CFC7A51DF01E2300E3F8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17CFC7A81DF01E2300E3F8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17CFC7AA1DF01E2300E3F8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CFC7AF1DF01E2300E3F8CB /* NSTierDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTierDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CFC7B31DF01E2300E3F8CB /* NSTierDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTierDemoTests.m; sourceTree = "<group>"; };
+		17CFC7B51DF01E2300E3F8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CFC7BA1DF01E2300E3F8CB /* NSTierDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTierDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CFC7BE1DF01E2300E3F8CB /* NSTierDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTierDemoUITests.m; sourceTree = "<group>"; };
+		17CFC7C01DF01E2300E3F8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CFC7CC1DF0202100E3F8CB /* AutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollLabel.h; sourceTree = "<group>"; };
+		17CFC7CD1DF0202100E3F8CB /* AutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17CFC7931DF01E2300E3F8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CFC7AC1DF01E2300E3F8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CFC7B71DF01E2300E3F8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17CFC78D1DF01E2300E3F8CB = {
+			isa = PBXGroup;
+			children = (
+				17CFC7981DF01E2300E3F8CB /* NSTierDemo */,
+				17CFC7B21DF01E2300E3F8CB /* NSTierDemoTests */,
+				17CFC7BD1DF01E2300E3F8CB /* NSTierDemoUITests */,
+				17CFC7971DF01E2300E3F8CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17CFC7971DF01E2300E3F8CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17CFC7961DF01E2300E3F8CB /* NSTierDemo.app */,
+				17CFC7AF1DF01E2300E3F8CB /* NSTierDemoTests.xctest */,
+				17CFC7BA1DF01E2300E3F8CB /* NSTierDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17CFC7981DF01E2300E3F8CB /* NSTierDemo */ = {
+			isa = PBXGroup;
+			children = (
+				17AFBDD01DF69C44009DF83B /* XLJScrollLabel.h */,
+				17AFBDD11DF69C44009DF83B /* XLJScrollLabel.m */,
+				174886CE1DF1641900E54337 /* NewTableViewCell.h */,
+				174886CF1DF1641900E54337 /* NewTableViewCell.m */,
+				17CFC7CC1DF0202100E3F8CB /* AutoScrollLabel.h */,
+				17CFC7CD1DF0202100E3F8CB /* AutoScrollLabel.m */,
+				17CFC79C1DF01E2300E3F8CB /* AppDelegate.h */,
+				17CFC79D1DF01E2300E3F8CB /* AppDelegate.m */,
+				17CFC79F1DF01E2300E3F8CB /* ViewController.h */,
+				17CFC7A01DF01E2300E3F8CB /* ViewController.m */,
+				17CFC7A21DF01E2300E3F8CB /* Main.storyboard */,
+				17CFC7A51DF01E2300E3F8CB /* Assets.xcassets */,
+				17CFC7A71DF01E2300E3F8CB /* LaunchScreen.storyboard */,
+				17CFC7AA1DF01E2300E3F8CB /* Info.plist */,
+				17CFC7991DF01E2300E3F8CB /* Supporting Files */,
+			);
+			path = NSTierDemo;
+			sourceTree = "<group>";
+		};
+		17CFC7991DF01E2300E3F8CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17CFC79A1DF01E2300E3F8CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17CFC7B21DF01E2300E3F8CB /* NSTierDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				17CFC7B31DF01E2300E3F8CB /* NSTierDemoTests.m */,
+				17CFC7B51DF01E2300E3F8CB /* Info.plist */,
+			);
+			path = NSTierDemoTests;
+			sourceTree = "<group>";
+		};
+		17CFC7BD1DF01E2300E3F8CB /* NSTierDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17CFC7BE1DF01E2300E3F8CB /* NSTierDemoUITests.m */,
+				17CFC7C01DF01E2300E3F8CB /* Info.plist */,
+			);
+			path = NSTierDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17CFC7951DF01E2300E3F8CB /* NSTierDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CFC7C31DF01E2300E3F8CB /* Build configuration list for PBXNativeTarget "NSTierDemo" */;
+			buildPhases = (
+				17CFC7921DF01E2300E3F8CB /* Sources */,
+				17CFC7931DF01E2300E3F8CB /* Frameworks */,
+				17CFC7941DF01E2300E3F8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTierDemo;
+			productName = NSTierDemo;
+			productReference = 17CFC7961DF01E2300E3F8CB /* NSTierDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17CFC7AE1DF01E2300E3F8CB /* NSTierDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CFC7C61DF01E2300E3F8CB /* Build configuration list for PBXNativeTarget "NSTierDemoTests" */;
+			buildPhases = (
+				17CFC7AB1DF01E2300E3F8CB /* Sources */,
+				17CFC7AC1DF01E2300E3F8CB /* Frameworks */,
+				17CFC7AD1DF01E2300E3F8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CFC7B11DF01E2300E3F8CB /* PBXTargetDependency */,
+			);
+			name = NSTierDemoTests;
+			productName = NSTierDemoTests;
+			productReference = 17CFC7AF1DF01E2300E3F8CB /* NSTierDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17CFC7B91DF01E2300E3F8CB /* NSTierDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CFC7C91DF01E2300E3F8CB /* Build configuration list for PBXNativeTarget "NSTierDemoUITests" */;
+			buildPhases = (
+				17CFC7B61DF01E2300E3F8CB /* Sources */,
+				17CFC7B71DF01E2300E3F8CB /* Frameworks */,
+				17CFC7B81DF01E2300E3F8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CFC7BC1DF01E2300E3F8CB /* PBXTargetDependency */,
+			);
+			name = NSTierDemoUITests;
+			productName = NSTierDemoUITests;
+			productReference = 17CFC7BA1DF01E2300E3F8CB /* NSTierDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17CFC78E1DF01E2300E3F8CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XLJ;
+				TargetAttributes = {
+					17CFC7951DF01E2300E3F8CB = {
+						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					17CFC7AE1DF01E2300E3F8CB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 17CFC7951DF01E2300E3F8CB;
+					};
+					17CFC7B91DF01E2300E3F8CB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 17CFC7951DF01E2300E3F8CB;
+					};
+				};
+			};
+			buildConfigurationList = 17CFC7911DF01E2300E3F8CB /* Build configuration list for PBXProject "NSTierDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17CFC78D1DF01E2300E3F8CB;
+			productRefGroup = 17CFC7971DF01E2300E3F8CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17CFC7951DF01E2300E3F8CB /* NSTierDemo */,
+				17CFC7AE1DF01E2300E3F8CB /* NSTierDemoTests */,
+				17CFC7B91DF01E2300E3F8CB /* NSTierDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17CFC7941DF01E2300E3F8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CFC7A91DF01E2300E3F8CB /* LaunchScreen.storyboard in Resources */,
+				17CFC7A61DF01E2300E3F8CB /* Assets.xcassets in Resources */,
+				17CFC7A41DF01E2300E3F8CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CFC7AD1DF01E2300E3F8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CFC7B81DF01E2300E3F8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17CFC7921DF01E2300E3F8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174886D11DF1641900E54337 /* NewTableViewCell.m in Sources */,
+				17CFC7CE1DF0202100E3F8CB /* AutoScrollLabel.m in Sources */,
+				17CFC7A11DF01E2300E3F8CB /* ViewController.m in Sources */,
+				17CFC79E1DF01E2300E3F8CB /* AppDelegate.m in Sources */,
+				17AFBDD21DF69C44009DF83B /* XLJScrollLabel.m in Sources */,
+				17CFC79B1DF01E2300E3F8CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CFC7AB1DF01E2300E3F8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CFC7B41DF01E2300E3F8CB /* NSTierDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CFC7B61DF01E2300E3F8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CFC7BF1DF01E2300E3F8CB /* NSTierDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17CFC7B11DF01E2300E3F8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17CFC7951DF01E2300E3F8CB /* NSTierDemo */;
+			targetProxy = 17CFC7B01DF01E2300E3F8CB /* PBXContainerItemProxy */;
+		};
+		17CFC7BC1DF01E2300E3F8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17CFC7951DF01E2300E3F8CB /* NSTierDemo */;
+			targetProxy = 17CFC7BB1DF01E2300E3F8CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17CFC7A21DF01E2300E3F8CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17CFC7A31DF01E2300E3F8CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17CFC7A71DF01E2300E3F8CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17CFC7A81DF01E2300E3F8CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17CFC7C11DF01E2300E3F8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17CFC7C21DF01E2300E3F8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17CFC7C41DF01E2300E3F8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSTierDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rockhippo.mm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17CFC7C51DF01E2300E3F8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSTierDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rockhippo.mm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17CFC7C71DF01E2300E3F8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSTierDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.NSTierDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTierDemo.app/NSTierDemo";
+			};
+			name = Debug;
+		};
+		17CFC7C81DF01E2300E3F8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSTierDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.NSTierDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTierDemo.app/NSTierDemo";
+			};
+			name = Release;
+		};
+		17CFC7CA1DF01E2300E3F8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSTierDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.NSTierDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSTierDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		17CFC7CB1DF01E2300E3F8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSTierDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.NSTierDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSTierDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17CFC7911DF01E2300E3F8CB /* Build configuration list for PBXProject "NSTierDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CFC7C11DF01E2300E3F8CB /* Debug */,
+				17CFC7C21DF01E2300E3F8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CFC7C31DF01E2300E3F8CB /* Build configuration list for PBXNativeTarget "NSTierDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CFC7C41DF01E2300E3F8CB /* Debug */,
+				17CFC7C51DF01E2300E3F8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CFC7C61DF01E2300E3F8CB /* Build configuration list for PBXNativeTarget "NSTierDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CFC7C71DF01E2300E3F8CB /* Debug */,
+				17CFC7C81DF01E2300E3F8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CFC7C91DF01E2300E3F8CB /* Build configuration list for PBXNativeTarget "NSTierDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CFC7CA1DF01E2300E3F8CB /* Debug */,
+				17CFC7CB1DF01E2300E3F8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17CFC78E1DF01E2300E3F8CB /* Project object */;
+}
